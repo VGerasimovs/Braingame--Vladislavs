@@ -1,0 +1,19 @@
+.ietvars {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(211, 207, 207)
+}
+
+h1 {
+    text-align: center;
+    background: rgb(35, 107, 175);
+}
+
+ul {
+    text-align: center;
+    padding: 0px;
+}
+li{
+    display: inline-block;
+}
