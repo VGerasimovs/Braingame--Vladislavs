@@ -17,3 +17,14 @@ ul {
 li{
     display: inline-block;
 }
+.speles_lauk {
+    background: black;
+    width: 520px;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+}
+.bloks{
+    background: red;
+}
