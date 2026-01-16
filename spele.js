@@ -10,13 +10,19 @@ let klikski = 0;
 let timerid = null;
 let timerstarted = false;
 
+function formatTime(seconds) {
+    const m = String(Math.floor(seconds / 60)).padStart(2, '0');
+    const s = String(second % 60) .padStart(2, '0');
+    return `$(m).$(s)`;
+}
 
 
 
 
-const laukumiSaturs = ['😚','😥','🤫','😥','👺','😚','👽','😵','👽','🤫','😵','👺']
+
+const laukumiSaturs = ['😚','😥','🤫','😥','👺','😚','👽','😵','👽','🤫','😵','👺'];
 let atvertiLaukumi = [];
 let pedejieDivi = []; 
 
 //sajauc emoji nejaušā secībā
-let laukumiSajaukti = [...laukumiSaturs].sort(()=> Math.random)
+let laukumiSajaukti = [...laukumiSaturs].sort(() => Math.random() - 0.5);
